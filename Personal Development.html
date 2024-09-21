@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D'Andre Williams</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /* General body styling */
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ffffff, #cce7ff); /* Gradient background */
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #003366;
+            color: #ffffff;
+            padding: 1.5em 0;
+            text-align: center;
+            width: 100%;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8em;
+        }
+
+        /* Navigation styling */
+        nav {
+            background: linear-gradient(135deg, #ffffff, #cce7ff); /* Gradient background */
+            padding: 10px 0;
+            width: 100%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            list-style-type: square;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+            border: 2px solid #003366;
+            border-radius: 5px;
+            padding: 5px 10px;
+        }
+
+        nav ul li a {
+            color: #003366;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: color 0.3s, text-decoration 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffffff;
+            background-color: #003366;
+            text-decoration: underline;
+        }
+
+        /* Brief section styling */
+        .brief-section {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 30px;
+            background: linear-gradient(135deg, #ffffff, #cce7ff); /* Gradient background */
+            border-radius: 12px;
+            border: 6px solid #003366;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            font-family: 'Dancing Script', cursive; /* Cursive font for paragraphs */
+        }
+
+        .brief-section h2 {
+            margin-top: 0;
+            color: #003366;
+            font-size: 2em;
+        }
+
+        .brief-section p {
+            line-height: 1.8;
+            margin-bottom: 1.5em;
+            font-size: 1.1em;
+            color: #003366;
+        }
+
+        /* Skills container styling */
+        .skills-container {
+            display: flex;
+            justify-content: center;
+            max-width: 800px; /* Set a max width for the skills box */
+            margin: 0 auto; /* Center the skills container */
+            padding: 20px; /* Add some padding */
+            background: linear-gradient(135deg, #ffffff, #cce7ff); /* Gradient background */
+            border-radius: 12px;
+            border: 2px solid #003366;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .skill {
+            flex: 1; /* Allow each skill to grow equally */
+            padding: 20px; /* Add some padding */
+            text-align: center; /* Center text */
+            border-right: 2px solid #003366; /* Add blue line */
+        }
+
+        .skill:last-child {
+            border-right: none; /* Remove the right border from the last skill */
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #003366;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+
+            .brief-section {
+                padding: 20px;
+            }
+
+            .skills-container {
+                flex-direction: column; /* Stack items vertically on small screens */
+            }
+
+            .skill {
+                border-right: none; /* Remove border on small screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Personal Development</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="Index.html" target="_self">Index</a></li>
+            <li><a href="Professional.html" target="_self">Professional</a></li>
+            <li><a href="Personality.html" target="_self">Personality</a></li>
+            <li><a href="Personal Development.html" target="_self">Personal Development</a></li>
+            <li><a href="Storyboard.html" target="_self">Storyboard</a></li>
+            <li><a href="Reference.html" target="_self">Reference</a></li>
+        </ul>
+    </nav>
+
+    <div class="brief-section">
+        <h1>Summary of the Book "Twelve Pillars"</h1><br>
+            Chapters 4 to 7 of "Twelve Pillars" outline essential principles for both personal and professional growth, focusing on key qualities such as character, 	 	    responsibility, relationships, and goal-setting.
+        <div class="brief-section">
+
+            <h2>Pillar of Character</h2>
+            <p>This pillar emphasizes the importance of integrity and authenticity. A strong character builds trust and respect in both personal and professional 			relationships.</p>
+        </div>
+
+        <div class="brief-section">
+            <h2>Pillar of Responsibility</h2>
+            <p>The authors stress the need to take ownership of one’s actions. Viewing challenges as opportunities for growth, rather than obstacles, is a key takeaway 		from this chapter.</p>
+        </div>
+        <div class="brief-section">
+            <h2>Pillar of Relationships</h2>
+            <p>Building and nurturing meaningful relationships is vital for success. The authors highlight the importance of investing quality time in these connections in 		both personal and professional settings.</p>
+        </div>
+        <div class="brief-section">
+            <h2>Pillar of Goals</h2>
+            <p>Clear and actionable goals provide direction. The chapter underscores the necessity of not only setting goals but also formulating concrete plans to achieve 		them.</p>
+        </div>
+    </div>
+
+    <div class="brief-section">
+        <h2>Reflection</h2>
+        <p>These principles are particularly relevant to my experience as a Computer Science student. Focusing on character encourages me to be authentic in my 		   interactions, fostering trust in collaborative projects and professional environments. I will prioritize my values while engaging with peers, mentors, and 		   mentees.</p>
+        <p>The emphasis on responsibility inspires me to take a proactive approach to my studies. Rather than blaming external factors for difficulties in challenging 		    subjects, I will take control of my education by seeking help and utilizing resources effectively, which will enhance my resilience.</p>
+        <p>Networking within the tech community is crucial for building relationships. I plan to create meaningful connections through study groups, internships, and 			professional networking events to facilitate collaboration and new opportunities.</p>
+        <p>Finally, the pillar of goals aligns with my academic aspirations. I aim to establish specific, measurable objectives for each semester, such as mastering 			programming languages, completing projects, and maintaining a GPA of 3.0 or higher.</p>
+    </div>
+
+	<h2> Skills That I Have Acquired </h2>
+    <div class="skills-container">
+        <div class="skill">
+            <h2>Effective Communication</h2>
+            <p>I've gotten better at explaining difficult technical ideas in a straightforward manner, which is important for presentations and teamwork.</p>
+        </div>
+        <div class="skill">
+            <h2>Critical Thinking</h2>
+            <p>I've improved my capacity to identify issues and come up with workable solutions, which is crucial for software development and programming.</p>
+        </div>
+    </div>
+<br>
+<br>
+    <footer>
+        <p>&copy; 2024 D'Andre Williams. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+

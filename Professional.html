@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D'Andre Williams</title>
+    <style>
+        /* General body styling */
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+           background: linear-gradient(135deg, #ffffff, #cce7ff); /* Gradient background */
+            color: #003366; /* Dark blue text */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+	
+        }
+
+        /* Header styling */
+        header {
+            padding: 1.5em 0;
+            text-align: center;
+            width: 100%;
+            background-color: #003366; /* Dark blue */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8em;
+            color: #ffffff; /* White text */
+        }
+
+        /* Navigation styling */
+        nav {
+            background-color: #f9f9f9; /* Light grey */
+            padding: 10px 0;
+            width: 100%; /* Full width */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+        }
+
+        nav ul {
+            list-style-type: square; /* Square bullets */
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center; /* Center the list items */
+        }
+
+        nav ul li {
+            margin: 0 15px;
+            border: 2px solid #003366; /* Dark blue border */
+            border-radius: 5px; /* Rounded corners */
+            padding: 5px 10px; /* Padding for spacing */
+        }
+
+        nav ul li a {
+            color: #003366; /* Dark blue text */
+            text-decoration: none; /* Remove underline */
+            font-size: 1.2em; /* Slightly larger font size */
+            transition: color 0.3s, background-color 0.3s; /* Smooth transitions */
+        }
+
+        nav ul li a:hover {
+            color: #f9f9f9; /* Light text on hover */
+            background-color: #003366; /* Dark blue background on hover */
+            text-decoration: underline; /* Underline on hover */
+        }
+
+	 /* Resume embed styling */
+        .resume-embed {
+            position: relative;
+            width: 35%;
+            height: 0;
+            padding-top: 50%; /* Decreased size */
+            overflow: hidden;
+	 border: 3px solid #003366;
+	
+
+        }
+
+        .resume-embed iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            border: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .resume-link {
+            margin-bottom: 1em;
+            color: #003366; /* Dark blue link */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+ 
+
+        /* Vision & Mission section styling */
+        .vision-mission-section {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+           background: linear-gradient(135deg, #ffffff, #cce7ff); /* Gradient background */
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            text-align: center;
+	    border: 3px solid #003366;
+        }
+
+        .vision-mission-section h2 {
+            color: #003366; /* Deep blue */
+            font-size: 2em;
+        }
+
+        .vision-mission-section h3 {
+            color: #ff6600; /* Orange for subheadings */
+            font-family: 'Dancing Script', cursive; /* Cursive font */
+        }
+
+        .vision-mission-section p {
+            line-height: 1.6;
+            font-size: 1.1em;
+            color: #333; /* Dark text for readability */
+            margin-bottom: 1.5em;
+            font-family: 'Dancing Script', cursive; /* Cursive font for paragraphs */
+        }
+
+        /* Career info section styling */
+        .career-info-section {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+           background: linear-gradient(135deg, #ffffff, #cce7ff); /* Gradient background */
+            border-radius: 12px;
+            border: 3px solid #003366; /* Blue frame */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            text-align: left; /* Align text to the left for readability */
+	font-family: 'Dancing Script', cursive; /* Cursive font for paragraphs */
+
+        }
+
+        .career-info-section h2 {
+            color: #003366; /* Deep blue */
+            font-size: 2em;
+        }
+
+        .career-info-section h3 {
+            color: #ff6600; /* Orange for subheadings */
+            font-size: 1.5em;
+        }
+
+        .career-info-section ul {
+            list-style-type: disc; /* Default bullet points */
+            margin: 0;
+            padding-left: 20px; /* Indentation for lists */
+        }
+
+        .career-info-section li {
+            margin-bottom: 0.5em; /* Space between list items */
+            color: #333; /* Dark text for readability */
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #003366; /* Dark blue */
+            color: #ffffff; /* White text */
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+            margin-top: auto;
+        }
+	
+	 /* Responsive design */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column; /* Stack navigation items vertically */
+            }
+
+            nav ul li {
+                margin: 10px 0; /* Vertical spacing */
+            }
+
+            .vision-mission-section, .career-info-section {
+                padding: 15px;
+            }
+
+            .resume-embed {
+                height: 300px; /* Adjust height for smaller screens */
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Exploring my Career</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="Index.html" target="_self">Index</a></li>
+            <li><a href="Professional.html" target="_self">Professional</a></li>
+            <li><a href="Personality.html" target="_self">Personality</a></li>
+            <li><a href="Personal Development.html" target="_self">Personal Development</a></li>
+            <li><a href="Storyboard.html" target="_self">Storyboard</a></li>
+            <li><a href="Reference.html" target="_self">Reference</a></li>
+        </ul>
+    </nav>
+   <br>
+   <br>
+
+	<a href="Professional.html#career-info" target="_self" class="career-link">View My Career Information</a>
+
+	<h1>D'Andre's Resume</h1>
+
+        
+	 <div class="resume-embed">
+        <iframe loading="lazy" src="https://www.canva.com/design/DAFcj-IFeNc/MtSNoVNQjTt167zn7YdRRg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">		</iframe>
+    </div>
+    <a href="https://www.canva.com/design/DAFcj-IFeNc/MtSNoVNQjTt167zn7YdRRg/view?utm_content=DAFcj-IFeNc&utm_campaign=designshare&utm_medium=embeds&utm_source=link" 			target="_blank" rel="noopener" class="resume-link">D'Andre Williams Resume</a>
+
+    <div class="vision-mission-section">
+        <h2>Professional Vision & Mission Statements</h2>
+        <div class="vision-statement">
+            <h3>Vision Statement</h3>
+            <p class="italic-underline">To become a leader in technology and personal development, empowering individuals and organizations to harness their potential 			through innovative solutions and continuous learning.</p>
+        </div>
+        <div class="mission-statement">
+            <h3>Mission Statement</h3>
+            <p class="italic-underline">To leverage my skills and experiences in technology to drive positive change and inspire others on their journey of personal and 	    professional growth, while remaining committed to lifelong learning and improvement.</p>
+        </div>
+    </div>
+
+    <div class="career-info-section" id="career-info">
+        <h2>Career: Software Engineer</h2>
+        <h3>Skills Required</h3>
+        <ul>
+            <li>Proficiency in programming languages (e.g., Java, C++, Python, JavaScript)</li>
+            <li>Strong understanding of algorithms and data structures</li>
+            <li>Experience with software development frameworks (e.g., React, Angular)</li>
+            <li>Knowledge of version control systems (e.g., Git)</li>
+            <li>Ability to work collaboratively in Agile/Scrum environments</li>
+            <li>Strong problem-solving and debugging skills</li>
+            <li>Familiarity with databases (SQL, NoSQL) and APIs</li>
+            <li>Proficiency in cloud computing</li>
+        </ul>
+
+        <h3>Job Requirements</h3>
+        <ul>
+            <li>Experience in software development or internships</li>
+            <li>Understanding of software development lifecycle (SDLC)</li>
+            <li>Ability to write clean, maintainable, and efficient code</li>
+            <li>Knowledge of testing methodologies and frameworks</li>
+        </ul>
+
+        <h3>Qualifications</h3>
+        <ul>
+            <li>Bachelor's degree in Computer Science or Software Engineering</li>
+            <li>Internship or project experience in software development</li>
+            <li>Portfolio of projects demonstrating coding skills and problem-solving ability</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 D'Andre Williams. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
+

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D'Andre Williams</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /* General body styling */
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+             background: linear-gradient(135deg, #ffffff, #cce7ff); /* Gradient background */
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #003366;
+            color: #ffffff;
+            padding: 1.5em 0;
+            text-align: center;
+            width: 100%;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8em;
+        }
+
+        /* Navigation styling */
+        nav {
+         background: linear-gradient(135deg, #ffffff, #cce7ff); /* Gradient background */
+
+            padding: 10px 0;
+            width: 100%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            list-style-type: square;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+            border: 2px solid #003366;
+            border-radius: 5px;
+            padding: 5px 10px;
+        }
+
+        nav ul li a {
+            color: #003366;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: color 0.3s, text-decoration 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffffff;
+            background-color: #003366;
+            text-decoration: underline;
+        }
+
+        /* Media container styling */
+        .media-container {
+            display: flex;
+            justify-content: space-between; /* Space between items */
+            align-items: flex-start; /* Align items to the top */
+            margin: 20px auto; /* Center the container */
+            max-width: 800px; /* Set a max width */
+        }
+
+        .media-image {
+            max-width: 45%; /* Ensure image doesn't exceed 45% of the container */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        .media-video {
+            max-width: 45%; /* Ensure video doesn't exceed 45% of the container */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        /* Brief section styling */
+        .brief-section {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 30px;
+            background: linear-gradient(135deg, #ffffff, #cce7ff); /* Gradient background */
+            border-radius: 12px;
+            border: 6px solid #003366;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            text-align: center;
+	font-family: 'Dancing Script', cursive; /* Cursive font for paragraphs */
+
+
+        }
+
+        .brief-section h2 {
+            margin-top: 0;
+            color: #003366;
+            font-size: 2em;
+        }
+
+        .brief-section hr {
+            border: 1px solid #003366;
+            margin: 10px 0;
+        }
+
+        .brief-section p {
+            line-height: 1.8;
+            margin-bottom: 1.5em;
+            font-size: 1.1em;
+            color: #003366;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #003366;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+
+            .brief-section {
+                padding: 20px;
+            }
+
+            .media-container {
+                flex-direction: column; /* Stack items vertically on small screens */
+                align-items: center; /* Center items */
+            }
+
+            .media-image, .media-video {
+                max-width: 100%; /* Full width on small screens */
+            }
+      
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>D'Andre's Personality</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="Index.html" target="_self">Index</a></li>
+            <li><a href="Professional.html" target="_self">Professional</a></li>
+            <li><a href="Personality.html" target="_self">Personality</a></li>
+            <li><a href="Personal Development.html" target="_self">Personal Development</a></li>
+            <li><a href="Storyboard.html" target="_self">Storyboard</a></li>
+            <li><a href="Reference.html" target="_self">Reference</a></li>
+        </ul>
+    </nav>
+
+    <div class="media-container">
+        <img src="../Assets/bolt.png" alt="bolt" class="media-image">
+        <video width="640" height="360" controls class="media-video">
+            <source src="../Assets/usainbolt.mp4" type="video/mp4">
+            <source src="../Assets/usainbolt.webm" type="video/webm">
+        </video>
+    </div>
+
+    <div class="brief-section">
+        <h2>My Hero: Usain Bolt</h2>
+        <p><strong>Favorite Quote:</strong> "I don't think limits."</p>
+        <p><i>Usain Bolt, the fastest man in the world and an eight-time Olympic gold medalist, is a hero of mine for many reasons. His incredible 		      			achievements on the track, combined with his charismatic personality and humble beginnings, make him a source of inspiration.</i></p>
+        <p><i>I chose Usain Bolt as my hero because he embodies the spirit of determination and hard work. Despite facing challenges throughout his career,              	      he consistently pushed beyond perceived limits, breaking records and redefining what is possible in athletics.</i></p>
+        <p><i>I make it a point to use Bolt's ideas in my academic work. When it comes to taking on difficult topics or working in groups, I try to go 	  	      			beyond my own boundaries and adopt a growth mentality. I'm motivated by Bolt's unwavering pursuit of excellence to maintain my focus, put in a lot 		of effort, and never accept anything less than my best.</i></p>
+        <p><i>His story shows me that I can succeed in my academic work and on the field if I put in the necessary effort and adopt the appropriate 	 	       			mindset.</i></p>
+    </div>
+
+    <div class="brief-section">
+        <h2>Strongest Trait: Perseverance</h2>
+        <p><i>Perseverance is my strongest trait, significantly shaping how I navigate challenges in my academic life. When faced with difficult coursework, I 	       			actively seek help and dedicate extra time to studying, which boosts my confidence.</i></p>
+        <p><i>Watching football brings me immense happiness and reinforces this trait. The thrill of the game teaches me that setbacks are temporary and inspires me to 		approach my studies with the same mindset.</i></p>
+        <p><i>In group projects, I remain calm and focused, much like a team captain, helping mediate discussions and keep my team on track. My resilience and the 			happiness I find in football motivate me to maintain a positive outlook and strive for success.</i></p>
+    </div>
+
+    <div class="brief-section">
+    
+	<img src="../Assets/personality.png" alt="personality" width="600" height="300">
+
+        <h2>Reflection</h2>
+
+        <p><i>After taking the Keirsey Temperament Sorter, I learned that I am categorized as a "Guardian." This personality type is characterized by a 	      			strong sense of responsibility, loyalty, and practicality. I find that this resonates with me, as I often prioritize stability and the well-being of those 		around. In general, I believe the personality test offered valuable insights into my character and behavior. It also enabled me to understand my strengths 		and weaknesses, as well as how we interact with others. In my case, the test's description of "Guardians" aligns with my values and how I approach both 		academic and personal challenges, suggesting that it holds validity for me.</i></p>
+    </div>
+
+
+
+    <footer>
+        <p>&copy; 2024 D'Andre Williams. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

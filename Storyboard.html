@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D'Andre Williams</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /* General body styling */
+        body {
+            font-family: 'Georgia', serif; /* Georgia for body text */
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ffffff, #cce7ff); /* Gradient background */
+            color: #333; /* Dark text color */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #003366; /* Deep blue */
+            color: #ffffff; /* White text */
+            padding: 1.5em 0;
+            text-align: center;
+            width: 100%;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8em;
+                   }
+
+        /* Navigation styling */
+        nav {
+            background-color: #ffffff; /* White background */
+            padding: 10px 0;
+            width: 100%; /* Full width */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+        }
+
+        nav ul {
+            list-style-type: square; /* Bullet points */
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center; /* Center the list items */
+        }
+
+        nav ul li {
+            margin: 0 15px;
+            border: 2px solid #003366; /* Deep blue border */
+            border-radius: 5px; /* Rounded corners */
+            padding: 5px 10px; /* Padding for spacing */
+        }
+
+        nav ul li a {
+            color: #003366; /* Deep blue text */
+            text-decoration: none; /* Remove underline */
+            font-size: 1.2em; /* Slightly larger font size */
+            transition: color 0.3s, text-decoration 0.3s; /* Smooth transitions */
+        }
+
+        nav ul li a:hover {
+            color: #ffffff; /* White on hover */
+            background-color: #003366; /* Deep blue background on hover */
+            text-decoration: underline; /* Underline on hover */
+        }
+
+        /* Image styling */
+        .profile-image {
+            display: block;
+            max-width: 200px;
+            height: auto;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+            transition: transform 0.3s;
+        }
+
+        .profile-image:hover {
+            transform: scale(1.05); /* Slightly enlarge image on hover */
+        }
+
+        /* Brief section styling */
+        .brief-section {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 30px;
+             background: linear-gradient(135deg, #ffffff, #cce7ff); /* Gradient background */
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .brief-section h2 {
+            margin-top: 0;
+            color: #003366; /* Deep blue */
+            font-size: 2em;
+        }
+
+        .brief-section hr {
+            border: 1px solid #003366; /* Deep blue line */
+            margin: 10px 0; /* Margin around the line */
+        }
+
+        .brief-section p {
+            line-height: 1.8;
+            margin-bottom: 1.5em;
+            font-size: 1.1em;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #003366; /* Deep blue */
+            color: #ffffff; /* White text */
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .footer-links {
+            margin: 10px 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px; /* Space between icons */
+        }
+
+        .footer-links a {
+            text-decoration: none;
+            border: 2px solid #ffffff; /* White border around icons */
+            border-radius: 50%;
+            padding: 5px;
+            transition: border-color 0.3s, transform 0.3s; /* Smooth transitions */
+        }
+
+        .footer-links a:hover {
+            border-color: #003366; /* Deep blue border on hover */
+            transform: scale(1.1); /* Slightly enlarge icon on hover */
+        }
+
+        .footer-links img {
+            width: 50px;
+            height: 50px;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column; /* Stack navigation items vertically */
+            }
+
+            nav ul li {
+                margin: 10px 0; /* Vertical spacing */
+            }
+
+            .profile-image {
+                max-width: 150px;
+            }
+
+            .brief-section {
+                padding: 20px;
+            }
+
+            .footer-links img {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Storyboard</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="Index.html" target="_self">Index</a></li>
+            <li><a href="Professional.html" target="_self">Professional</a></li>
+            <li><a href="Personality.html" target="_self">Personality</a></li>
+            <li><a href="Personal Development.html" target="_self">Personal Development</a></li>
+            <li><a href="Storyboard.html" target="_self">Storyboard</a></li>
+            <li><a href="Reference.html" target="_self">Reference</a></li>
+        </ul>
+    </nav>
+
+<div class="brief-section">
+	<img src ="../Assets/index.png" alt="index" width="500" height="450">
+	<p>Index Page-Serves as the homepage or entry point for the website, providing an overview of what users can expect to find. It include links to other sections and 	a brief introduction about D'Andre.
+</div>
+
+<div class="brief-section">
+	<img src ="../Assets/professional.png" alt="professional" width="500" height="450">
+	<p>Professional Page-Focuses on D'Andre's professional background, skills, and achievements. This page illustrates my resume,information about my career and my 	mission and vision statements .</p>
+</div>
+<div class="brief-section">
+	<img src ="../Assets/personality.png" alt="personality" width="500" height="450">
+	<p>Personality Page-Highlights D'Andre's personal interests, values, and personality traits. This page features discussions an influential figure such as Usain 		Bolt, personal reflections, and insights into what shapes D'Andre's character.</p>
+</div>
+<div class="brief-section">
+	<img src ="../Assets/personal development.png" alt="personal development" width="500" height="450">
+	<p>Personal Development-Explores topics related to personal growth and self-improvement. This page summarised a book "Twelve Pillars" and it included a reflection 	on specific principles learned and how it can be applied to my course of study.</p></div>
+<div class="brief-section">
+	<img src ="../Assets/Storyboard.jpg" alt="Storyboard" width="500" height="450">
+	<p>Storyboard-Visual representation of D'Andre's ideas, plans, or creative projects. This page included the wireframes for each webpage, it explained the theme of 	the website and the reason as to why certain features were used.</p></div>
+<div class="brief-section">
+	<img src ="../Assets/Reference.jpg" alt="Reference" width="500" height="450">
+
+	<p>Reference-Provides additional resources, links, or citations that support the content found throughout the website. </p></div>
+
+<div class="brief-section">
+	<h2>Purpose of Colors, Target Audience and Fetaures Used</h2>
+	<p>Dark Blue: Conveys professionalism, trust, and stability, creating a strong foundational color that resonates with a serious and academic tone.</p>
+	<p>Gradient Blue: Adds a modern and dynamic feel to the site, suggesting creativity and depth while maintaining a calming aesthetic.</p>
+	<p>White: Provides contrast, enhancing readability and giving a clean, fresh look that emphasizes content without overwhelming the viewer.</p>
+
+
+	<p>Target Audience:</p>
+
+	<p>The site targets students, professionals, and anyone interested in personal development and growth. The professional color scheme and layout appeal to an 	   	academic audience, while the engaging visuals and themes of perseverance and character development attract younger individuals looking for inspiration and 	guidance.</p><br>
+
+	<p>Features Used:<br>
+	1)Video<br>
+	2)Social Media Links<br>
+	3)Mailto Link<br>
+	4)Internal Link</p>  
+</div>
+
+    <footer>
+   	<p>&copy; 2024 D'Andre Williams. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
